@@ -1,0 +1,20 @@
+.job-btn{
+   background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    outline: none;
+    border:none;
+}
+
+.active-btn{
+    border-left: 4px solid rgb(184, 70, 152);
+    background-color: blueviolet;
+    color:white;
+}
+
+.job-btn:hover{
+ border-bottom: 4px solid white;
+ margin-bottom: 10px;
+}
