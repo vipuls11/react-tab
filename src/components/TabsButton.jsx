@@ -31,7 +31,7 @@ const TabsButton = () => {
     },[])
     
     if(loading){
-        return <section className='w-full h-screen flex justify-content-center items-center text-center'><p>Loading.............</p></section>
+        return <section className='w- h-screen flex justify-content-center items-center text-center'><p className='text-center w-full'>Loading.............</p></section>
     }
     
     const {company, duties, title, dates} = jobs[value]
